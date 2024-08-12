@@ -306,3 +306,20 @@
   display: block;
   margin: 15px auto 0;
 }
+
+/* Footer */
+.footer {
+  background-color:#ff8e3c;
+  text-align: center;
+  padding: 10px 0;
+  position:relative;
+}
+
+.footer-socials {
+  margin-top: 10px;
+}
+
+.footer-socials img {
+  margin: 10px;
+  width: 30px;
+}
