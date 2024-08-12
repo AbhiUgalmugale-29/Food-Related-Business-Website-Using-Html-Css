@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+.body {
+  background-color: #eff0f3;
+  font-family: "Arial", sans-serif;
+  width: 100%;
+}
+
+.heading {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  margin: 30px 0px 0px 0px;
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+}
+
+.heading span{
+  color: #d9376e;
+}
+
+.back-btn{
+  position: relative;
+  bottom: 50px;
+  left: 10px;
+  height: 40px;
+}
+
+.home-btn{
+  position: relative;
+  bottom: 50px;
+  left: 20px;
+  height: 40px;
+}
+
+.cards-container {
+  margin-top: 10px;
+  padding: 50px;
+  font-family: "Radio Canada Big", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  height: 380px;
+  width: 280px;
+  background-color: #eff0f3;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  box-shadow: 0 4px 8px #eff0f3;
+}
+
+.image {
+  height: 220px;
+  width: 220px;
+  border-radius: 25px;
+  display: block;
+  margin: 5px auto;
+  transition: height 0.3s ease;
+}
+
+.image:hover {
+  height: 221px;
+  transform: scale(1.05);
+}
+
+.p1 {
+  margin-top: 10px;
+  height:auto ;
+  color: #1b1325;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.p2 {
+  color: #1b1325;
+  font-size: 17px;
+  text-align: center;
+  font-weight: bolder;
+  position: relative;
+  bottom: 17px;
+}
+
+.btn1 {
+  height: 30px;
+  width: 120px;
+  background-color: #ff8e3c;
+  color: #0d0d0d;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  bottom: 18px;
+  left: 20px;
+}
+
+.btn1:active {
+  font-size: 10px;
+}
+
+.btn1:hover {
+  color: white;
+}
+
+.btn2 {
+  height: 30px;
+  width: 120px;
+  background-color: white;
+  color: #0d0d0d;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  bottom: 18px;
+  left: 30px;
+}
+
+.btn2:active {
+  font-size: 10px;
+}
+
+.btn2:hover {
+  background-color: #1b1325;
+  color: white;
+}
