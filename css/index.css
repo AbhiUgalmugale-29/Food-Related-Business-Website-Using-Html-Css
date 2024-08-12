@@ -126,3 +126,70 @@
   font-size: 13px;
   transform: translateY(2px) scale(0.98);
 }
+
+/*offer*/
+.offers-container {
+  background-color: #eff0f3;
+  margin-bottom: 100px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  justify-content: space-evenly;
+}
+
+.offers-h1 {
+  border-top: 1px solid black;
+  padding-top: 40px;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+.offers-h1 span {
+  color: #d9376e;
+}
+
+.offer-card {
+  height: 300px;
+  width: 270px;
+  background-color: white;
+  border-radius: 60px 5px 60px 5px;
+  padding: 20px;
+  border: 1px solid black;
+  box-shadow: 0 4px 8px #eff0f3;
+}
+
+.offer-card img {
+  height: 110px;
+  display: block;
+  margin: 5px auto;
+  transition: height 0.3s ease;
+}
+
+.offer-card h2 {
+  margin-top: 10px;
+  height: auto;
+  color: #1b1325;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.offer-card p {
+  padding: 0 15px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.offer-card button {
+  display: block;
+  margin: auto;
+}
