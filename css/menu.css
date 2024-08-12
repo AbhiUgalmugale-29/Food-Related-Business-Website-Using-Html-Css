@@ -23,10 +23,17 @@
   bottom: 50px;
   left: 15px;
   height: 40px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
 .back-btn:active{
+  transform: translateY(0px);
   height: 37px;
+}
+
+.back-btn:hover{
+  transform: translateY(-5px);
 }
 
 .cards-container {
