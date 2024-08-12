@@ -193,3 +193,65 @@
   display: block;
   margin: auto;
 }
+
+/*about*/
+.about-container {
+  margin-bottom: 100px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #eff0f3;
+}
+
+.about-h1 {
+  border-top: 1px solid black;
+  padding-top: 40px;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+.about-h1 span {
+  color: #d9376e;
+}
+
+.about-card {
+  height: 280px;
+  width: 270px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  box-shadow: 0 4px 8px #eff0f3;
+}
+
+.image {
+  height: 110px;
+  border-radius: 25px;
+  display: block;
+  margin: 5px auto;
+  transition: height 0.3s ease;
+}
+
+.p1 {
+  margin-top: 30px;
+  height: auto;
+  color: #1b1325;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.p2 {
+  padding: 0 15px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
