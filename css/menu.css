@@ -25,6 +25,10 @@
   height: 40px;
 }
 
+.back-btn:active{
+  height: 37px;
+}
+
 .cards-container {
   margin-top: 80px;
   background-color: #fffffe;

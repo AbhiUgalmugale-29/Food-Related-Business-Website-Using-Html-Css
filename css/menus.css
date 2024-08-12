@@ -25,11 +25,19 @@
   height: 40px;
 }
 
+.back-btn:active{
+  height: 37px;
+}
+
 .home-btn{
   position: relative;
   bottom: 50px;
   left: 20px;
   height: 40px;
+}
+
+.home-btn:active{
+  height: 37px;
 }
 
 .cards-container {
