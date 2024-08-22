@@ -4,37 +4,9 @@ Welcome to the Pizza Store website, "Pizza Palace." This website showcases a var
 
 **Hosted Link:** [Pizza Palace Website](https://pizzapalacewebsite.netlify.app/)
 
-## Screenshots
+## Screenshot
 
-### Homepage
 ![Homepage Screenshot](./screenshots/1.png)
-
-### MenuPage
-![MenuPage Screenshot](./screenshots/2.png)
-
-### Veg-Menu 
-![Veg-Menu Screenshot](./screenshots/3.png)
-
-### Non-Veg Menu  
-![Non-Veg Menu Screenshot](./screenshots/4.png)
-
-### Pizza Mania Menu
-![Pizza Mania Menu Screenshot](./screenshots/5.png)
-
-### Sides & Beverages Menu
-![Sides & Beverages Menu Screenshot](./screenshots/6.png)
-
-### Special Offers Section
-![Special Offers Screenshot](./screenshots/7.png)
-
-### About Us Section
-![About Us Screenshot](./screenshots/8.png)
-
-### Contact Section
-![Contact Section Screenshot](./screenshots/9.png)
-
-### Footer
-![Footer Screenshot](./screenshots/10.png)
 
 ## Project Overview
 

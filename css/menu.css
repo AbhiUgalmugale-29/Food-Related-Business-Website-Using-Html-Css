@@ -10,6 +10,55 @@ a{
   width: 100%;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  background-color: #ff8e3c;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 100%;
+  z-index: 1;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.header h1{
+  display: inline;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  position: relative;
+  left: 7px;
+  text-transform: uppercase;
+}
+
+.header h1 span{
+  color: white;
+}
+
+.navbar {
+  position: relative;
+  right: 130px;
+  display: block;
+  margin: auto;
+}
+
+.navbar a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Ubuntu", sans-serif;
+  color: #fffffe;
+  text-transform: capitalize;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
 .heading {
   font-family: "Edu VIC WA NT Beginner", cursive;
   margin: 20px 0px 0px 0px;
@@ -20,24 +69,6 @@ a{
 
 .heading span{
   color: #d9376e;
-}
-
-.back-btn{
-  position: relative;
-  bottom: 50px;
-  left: 15px;
-  height: 40px;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.back-btn:active{
-  transform: translateY(0px);
-  height: 37px;
-}
-
-.back-btn:hover{
-  transform: translateY(-5px);
 }
 
 .cards-container {
